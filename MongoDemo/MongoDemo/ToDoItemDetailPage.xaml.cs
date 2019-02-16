@@ -25,7 +25,7 @@ namespace MongoDemo
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(descr))
                 return;
 
-            var newToDo = new ToDoItem { Name = name, Description = descr };
+            var newToDo = new ToDoItem { Type = name, Description = descr };
 
             await MongoService.InsertItem(newToDo);
 

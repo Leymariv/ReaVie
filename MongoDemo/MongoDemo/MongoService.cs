@@ -10,6 +10,7 @@ namespace MongoDemo
 {
     public static class MongoService
     {
+
         static IMongoCollection<ToDoItem> todoItemsCollection;
         static IMongoCollection<Chantier> chantierCollection;
         readonly static string dbName = "BlogDemo";
@@ -19,7 +20,7 @@ namespace MongoDemo
         readonly static string host = "reavie-project.documents.azure.com";
         readonly static string password = "hXej44XKDgXN52Eb7ROZropb5LHTTMiY30iwMfDXV9wmVAeyLOhXXJRRKWaJlLjmX1TpnDXflQZLShhz0q3RQw==";
         static MongoClient client;
-        static IMongoDatabase MyDb;
+        public static IMongoDatabase MyDb;
 
         static void InitDatabase()
         {
@@ -37,7 +38,7 @@ namespace MongoDemo
             MyDb = client.GetDatabase(dbName);
         }
 
-        static IMongoCollection<ToDoItem> GetItemsCollection
+        public static IMongoCollection<ToDoItem> GetItemsCollection
         {
             get
             {
@@ -87,7 +88,7 @@ namespace MongoDemo
         {
             var results = await GetItemsCollection
                             .AsQueryable()
-                            .Where(tdi => tdi.Name.Contains(name))
+                            .Where(tdi => tdi.Type.Contains(name))
                             .Take(10)
                             .ToListAsync();
 

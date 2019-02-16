@@ -21,6 +21,12 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+obj/
+bin/
+MongoDemo/MongoDemo.Android/obj/
+MongoDemo/MongoDemo.Android/bin/
+MongoDemo/bin/
+MongoDemo/obj/
 
 # Visual Studio 2015 cache/options directory
 .vs/
