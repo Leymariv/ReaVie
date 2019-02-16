@@ -2,20 +2,28 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="MongoDemo.ToDoItemListPage"
+    x:Class="MongoDemo.ChantierListPage"
     Title="ReaVie Board">
     <ContentPage.Content>
-        <ListView x:Name="todoList">            
+       <ListView x:Name="todoList" >            
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}" Detail="{Binding Description}">
+                    <TextCell Text="{Binding ReferenceChantier}" Detail="{Binding Location}">
                         <TextCell.ContextActions>
                             <MenuItem Text="Delete" IsDestructive="true" Clicked="Delete_Item" CommandParameter="{Binding .}" />
                         </TextCell.ContextActions>
                     </TextCell>
                 </DataTemplate>
-            </ListView.ItemTemplate>
+            </ListView.ItemTemplate> 
         </ListView>
+        <!--<ListView x:Name="ListViewAddresses" Margin="0,0,254,0" ItemsSource="{Binding Adressen}" IsSynchronizedWithCurrentItem="True" PreviewKeyDown="ListView_PreviewKeyDown_1" SelectionChanged="ListView_SelectionChanged" PreviewMouseLeftButtonDown="ListView_PreviewMouseLeftButtonDown" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="311">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="120" Header="Vorname" DisplayMemberBinding="{Binding Vorname}" />
+                    <GridViewColumn Width="120" Header="Nachname" DisplayMemberBinding="{Binding Nachname}" />
+                </GridView>
+            </ListView.View>
+        </ListView>-->
     </ContentPage.Content>
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Nouveau chantier" Clicked="Add_Clicked" />

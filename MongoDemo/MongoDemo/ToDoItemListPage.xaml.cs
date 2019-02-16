@@ -7,15 +7,15 @@ using System.Collections.ObjectModel;
 
 namespace MongoDemo
 {
-    public partial class ToDoItemListPage : ContentPage
+    public partial class ChantierListPage : ContentPage
     {
-        public ObservableCollection<ToDoItem> ToDoItems { get; set; }
+        public ObservableCollection<Chantier> ToDoItems { get; set; }
 
-        public ToDoItemListPage()
+        public ChantierListPage()
         {
             InitializeComponent();
 
-            ToDoItems = new ObservableCollection<ToDoItem>();
+            ToDoItems = new ObservableCollection<Chantier>();
 
             todoList.ItemsSource = ToDoItems;
         }
@@ -24,7 +24,7 @@ namespace MongoDemo
         {
             base.OnAppearing();
 
-            var allItems = await MongoService.GetAllItems();
+            var allItems = await MongoService.GetAllChantiers();
 
             //var allItems = await MongoService.SearchByName("first");
 
@@ -36,8 +36,8 @@ namespace MongoDemo
 
             if (allItems.Count == 0)
             {
-                var newItem = new ToDoItem { Name = "The first item", Description = "Long description that's boring" };
-                await MongoService.InsertItem(newItem);
+                var newItem = new Chantier { Location = "Antony", ReferenceChantier = "RF20190215", Owner = "Mohamed", BeginDate = "15/02/2019" };
+                await MongoService.InsertChantier(newItem);
 
                 ToDoItems.Add(newItem);
             }
@@ -45,7 +45,7 @@ namespace MongoDemo
 
         protected async void Add_Clicked(object sender, EventArgs eventArgs)
         {
-            var detailPage = new NavigationPage(new ToDoItemDetailPage());
+            var detailPage = new NavigationPage(new NouveauChantier());
 
             await Navigation.PushModalAsync(detailPage, true);
         }
@@ -55,10 +55,10 @@ namespace MongoDemo
             if (!(sender is MenuItem menuItem))
                 return;
 
-            if (!(menuItem.CommandParameter is ToDoItem toDoItem))
+            if (!(menuItem.CommandParameter is Chantier toDoItem))
                 return;
 
-            var success = await MongoService.DeleteItem(toDoItem);
+            var success = await MongoService.DeleteChantier(toDoItem);
 
             if (success)
             {

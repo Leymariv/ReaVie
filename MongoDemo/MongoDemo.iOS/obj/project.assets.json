@@ -6955,11 +6955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo.iOS\\MongoDemo.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo.iOS\\MongoDemo.iOS.csproj",
       "projectName": "MongoDemo.iOS",
-      "projectPath": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo.iOS\\MongoDemo.iOS.csproj",
+      "projectPath": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo.iOS\\MongoDemo.iOS.csproj",
       "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo.iOS\\obj\\",
+      "outputPath": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -6976,8 +6976,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo\\MongoDemo.csproj": {
-              "projectPath": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo\\MongoDemo.csproj"
+            "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo\\MongoDemo.csproj": {
+              "projectPath": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo\\MongoDemo.csproj"
             }
           }
         }

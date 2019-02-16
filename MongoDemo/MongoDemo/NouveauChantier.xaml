@@ -7,9 +7,11 @@
     <ContentPage.Content>
         <TableView Intent="Form">
             <TableView.Root>
-                <TableSection Title="Details articles">
-                    <EntryCell Label="Name" x:Name="nameCell" />
-                    <EntryCell Label="Description" x:Name="descriptionCell" />
+                <TableSection Title="Caracteristiques">
+                    <EntryCell Label="Reference chantier" x:Name="refChantierCell" />
+                    <EntryCell Label="Emplacement" x:Name="locationCell" />
+                    <EntryCell Label="Proprietaire" x:Name="ownerCell" />
+                    <EntryCell Label="Begin Date" x:Name="beginDateCell" />
                 </TableSection>
             </TableView.Root>
         </TableView>

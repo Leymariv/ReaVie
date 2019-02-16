@@ -5032,11 +5032,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo.Android\\MongoDemo.Android.csproj",
+      "projectUniqueName": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo.Android\\MongoDemo.Android.csproj",
       "projectName": "MongoDemo.Android",
-      "projectPath": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo.Android\\MongoDemo.Android.csproj",
+      "projectPath": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo.Android\\MongoDemo.Android.csproj",
       "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo.Android\\obj\\",
+      "outputPath": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -5053,8 +5053,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo\\MongoDemo.csproj": {
-              "projectPath": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo\\MongoDemo.csproj"
+            "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo\\MongoDemo.csproj": {
+              "projectPath": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo\\MongoDemo.csproj"
             }
           }
         }

@@ -8,20 +8,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MongoDemo.ToDoItemListPage.xaml", "ToDoItemListPage.xaml", typeof(global::MongoDemo.ToDoItemListPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MongoDemo.ToDoItemListPage.xaml", "ToDoItemListPage.xaml", typeof(global::MongoDemo.ChantierListPage))]
 
 namespace MongoDemo {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("ToDoItemListPage.xaml")]
-    public partial class ToDoItemListPage : global::Xamarin.Forms.ContentPage {
+    public partial class ChantierListPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ListView todoList;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ToDoItemListPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ChantierListPage));
             todoList = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "todoList");
         }
     }

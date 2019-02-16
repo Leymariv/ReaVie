@@ -11,7 +11,7 @@ namespace MongoDemo
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new ToDoItemListPage());
+            MainPage = new NavigationPage(new ChantierListPage());
         }
 
         protected override void OnStart()

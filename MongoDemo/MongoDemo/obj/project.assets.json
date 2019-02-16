@@ -5028,11 +5028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo\\MongoDemo.csproj",
+      "projectUniqueName": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo\\MongoDemo.csproj",
       "projectName": "MongoDemo",
-      "projectPath": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo\\MongoDemo.csproj",
+      "projectPath": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo\\MongoDemo.csproj",
       "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Xamarin\\xam-blog-mongodb-master\\MongoDemo\\MongoDemo\\obj\\",
+      "outputPath": "C:\\Users\\jerem\\Projects\\ReaVie\\MongoDemo\\MongoDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

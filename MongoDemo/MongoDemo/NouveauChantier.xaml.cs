@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MongoDemo
 {
-	public partial class NouveauChantier : ContentView
+	public partial class NouveauChantier : ContentPage
 	{
+
         public NouveauChantier()
         {
             InitializeComponent();
@@ -23,15 +20,17 @@ namespace MongoDemo
 
         protected async void Save_Clicked(object sender, EventArgs eventArgs)
         {
-            var name = nameCell.Text;
-            var descr = descriptionCell.Text;
+            var location = locationCell.Text;
+            var owner = ownerCell.Text;
+            var beginDate = beginDateCell.Text;
+            var refChantier = refChantierCell.Text;
 
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(descr))
+            if (string.IsNullOrEmpty(location) || string.IsNullOrEmpty(owner) || string.IsNullOrEmpty(beginDate))
                 return;
 
-            var newToDo = new ToDoItem { Name = name, Description = descr };
+            var newToDo = new Chantier { Location = location, ReferenceChantier = refChantier, Owner = owner, BeginDate = beginDate };
 
-            await MongoService.InsertItem(newToDo);
+            await MongoService.InsertChantier(newToDo);
 
             await Navigation.PopModalAsync(true);
         }
