@@ -1,0 +1,13 @@
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\bin\Debug\netstandard2.0\MongoDemo.deps.json
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\bin\Debug\netstandard2.0\MongoDemo.dll
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\bin\Debug\netstandard2.0\MongoDemo.pdb
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\obj\Debug\netstandard2.0\MongoDemo.csprojAssemblyReference.cache
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\obj\Debug\netstandard2.0\ToDoItemDetailPage.xaml.g.cs
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\obj\Debug\netstandard2.0\ToDoItemListPage.xaml.g.cs
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\obj\Debug\netstandard2.0\MongoDemo.csproj.CoreCompileInputs.cache
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\obj\Debug\netstandard2.0\MongoDemo.AssemblyInfoInputs.cache
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\obj\Debug\netstandard2.0\MongoDemo.AssemblyInfo.cs
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\obj\Debug\netstandard2.0\MongoDemo.dll
+D:\Projects\Xamarin\xam-blog-mongodb-master\MongoDemo\MongoDemo\obj\Debug\netstandard2.0\MongoDemo.pdb
