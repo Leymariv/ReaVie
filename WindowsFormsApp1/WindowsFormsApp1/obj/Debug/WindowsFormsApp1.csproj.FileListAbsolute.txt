@@ -1,0 +1,12 @@
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DiagmosticUC.resources
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.LoginUC.resources
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainMenuUC.resources
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Moi\Documents\Programation\Reavie\ReaVie\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
