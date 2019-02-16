@@ -31,5 +31,8 @@ namespace MongoDemo
 
         [BsonElement("Etat")]
         public BsonArray Dates { get; set; }
+
+        [BsonElement("Etat")]
+        public string QRCode { get; set; }
     }
 }
